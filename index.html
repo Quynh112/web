@@ -3,69 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lời nhắn cho anh 💌</title>
+    <title>Lời nhắn nhỏ</title>
     <style>
       body {
-        background: linear-gradient(135deg, #ffd6ec, #d9e7ff);
-        font-family: "Poppins", sans-serif;
+        background: #fffafc;
+        font-family: "Poppins", "Segoe UI", sans-serif;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
-        height: 100vh;
+        align-items: center;
+        min-height: 100vh;
         text-align: center;
         color: #333;
+        padding: 20px;
       }
       .card {
         background: white;
-        padding: 40px;
         border-radius: 20px;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        padding: 40px 30px;
         max-width: 400px;
-        animation: fadeIn 2s ease-in-out;
+        animation: fadeIn 1s ease;
       }
       h1 {
-        color: #ff6fa7;
-        margin-bottom: 10px;
+        font-size: 1.6em;
+        margin-bottom: 15px;
+        color: #ff8fab;
       }
       p {
-        font-size: 18px;
+        font-size: 1.05em;
         line-height: 1.6;
-      }
-      .heart {
-        color: #ff4b77;
-        font-size: 22px;
-        animation: pulse 1.5s infinite;
       }
       @keyframes fadeIn {
         from {
           opacity: 0;
-          transform: translateY(30px);
+          transform: translateY(10px);
         }
         to {
           opacity: 1;
           transform: translateY(0);
         }
       }
-      @keyframes pulse {
-        0%,
-        100% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.3);
-        }
-      }
     </style>
   </head>
   <body>
     <div class="card">
-      <h1>Gửi anh yêu của em 💖</h1>
+      <h1>🌸 Một chút gì đó gửi anh 🌸</h1>
       <p>
-        Em chỉ mong mỗi ngày của anh đều tràn ngập niềm vui và bình yên hơn một
-        chút. Anh đã cố gắng rất nhiều rồi, nên hãy cho bản thân nghỉ ngơi và
-        cười nhiều hơn nha. Dù có mệt hay áp lực, em vẫn luôn ở đây — để anh dựa
-        vào một chút thôi cũng được <span class="heart">💞</span>
+        Không biết anh có thích hoa không, nhưng em tặng thử, biết đâu anh thấy
+        vui hơn một xíu.<br /><br />
+        Dạo này chắc mệt lắm, em chỉ mong anh đỡ stress hơn và có nhiều niềm vui
+        mỗi ngày.
       </p>
     </div>
   </body>
